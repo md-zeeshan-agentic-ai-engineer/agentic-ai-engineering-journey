@@ -1,0 +1,5 @@
+Git Day 2 Practice
+
+Learning:
+- git add
+- git commit
