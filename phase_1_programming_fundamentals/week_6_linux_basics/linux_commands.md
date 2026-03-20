@@ -1,6 +1,79 @@
-# Linux File Viewing Commands
+# Day 1 — Linux Introduction
 
-## 1. cat (Concatenate)
+## What is Linux?
+
+Linux is an open-source operating system based on Unix.  
+It is widely used in servers, cloud computing, and development environments.
+
+### Key Features:
+- Open-source (free to use)
+- Secure and stable
+- Highly customizable
+- Used by developers and companies worldwide
+
+---
+
+## What is Terminal?
+
+The terminal is a command-line interface (CLI) used to interact with the Linux system.
+
+Instead of using a graphical interface (GUI), you type commands to perform tasks.
+
+---
+
+## Basic Commands
+
+### pwd (Print Working Directory)
+- Shows the current directory you are in
+- Example:
+```bash
+pwd
+
+
+# Day 2 — File Navigation
+
+## What is File Navigation?
+
+File navigation in Linux means moving between directories (folders) using terminal commands.
+
+It is an essential skill for working efficiently in a Linux environment.
+
+---
+
+## Basic Navigation Commands
+
+### cd (Change Directory)
+
+The `cd` command is used to move between directories.
+
+#### Examples:
+
+```bash
+cd folder_name
+
+# Day 3 — File Operations
+
+## What are File Operations?
+
+File operations in Linux allow you to create, delete, copy, and move files and directories.
+
+These commands are essential for managing files in a system.
+
+---
+
+## Basic File Commands
+
+### touch
+
+The `touch` command is used to create a new file.
+
+#### Example:
+
+```bash
+touch file.txt
+# Day 4 - Linux File Viewing Commands
+
+## cat (Concatenate)
 - Use: View the entire file at once
 - Command:
   cat test.txt
@@ -9,7 +82,7 @@
 
 ---
 
-## 2. less (Most Important)
+## less (Most Important)
 - Use: Scroll and search through a file
 - Command:
   less test.txt
@@ -21,7 +94,7 @@
 
 ---
 
-## 3. head
+## head
 - Use: View the beginning of a file
 - Command:
   head test.txt
@@ -31,14 +104,14 @@
 
 ---
 
-## 4. tail
+## tail
 - Use: View the last lines of a file
 - Command:
   tail test.txt
 
 ---
 
-## 5. tail -f (Real-time monitoring)
+## tail -f (Real-time monitoring)
 - Use: Monitor live updates in a file
 - Command:
   tail -f test.txt
@@ -63,7 +136,7 @@
   tail -n 5 file.txt
   ---
 
-#  Linux Permissions (chmod)
+#  Day 5 - Linux Permissions (chmod)
 
 ##  What is chmod?
 `chmod` is used to change file permissions in Linux.
@@ -88,19 +161,19 @@ Example:
 
 ##  Common chmod Commands
 
-### 1. Make file executable
+### Make file executable
 chmod +x script.sh
 
-### 2. Remove write permission
+### Remove write permission
 chmod -w script.sh
 
-### 3. Give full permission (NOT SAFE)
+### Give full permission (NOT SAFE)
 chmod 777 script.sh
 
-### 4. Best practice (recommended)
+### Best practice (recommended)
 chmod 755 script.sh
 
-### 5. Read-only file
+### Read-only file
 chmod 644 file.txt
 
 ---
@@ -140,7 +213,7 @@ ls -l
 
 ---
 
-# Package Management (APT) + Git
+# Day 6 - Package Management (APT) + Git
 
 ## Goal
 - Learn how to install, update, upgrade, and remove software in Linux
@@ -151,35 +224,35 @@ ls -l
 
 ## Core APT Commands
 
-### 1. Update Package List
+### Update Package List
 ```bash
 sudo apt update
 
-### 2. Upgrade Installed Packages
+### Upgrade Installed Packages
 ```bash
 sudo apt upgrade
 
-### 3. Install a Package
+### Install a Package
 ```bash
 sudo apt install <package-name>
 
-### 4. Remove a Package
+### Remove a Package
 ```bash
 sudo apt remove <package-name>
 
-### 5. Check Installed Tool
+### Check Installed Tool
 ```bash
 tree
 
-### 6. Install Git
+### Install Git
 ```bash
 sudo apt install git
 
-### 7. Check Git Version
+### Check Git Version
 ```bash
 git --version
 
-### 8. Important Notes
+### Important Notes
 - Always run `apt update` before installing packages
 - Do not install unknown packages blindly
 - Remove unused packages to keep system clean
