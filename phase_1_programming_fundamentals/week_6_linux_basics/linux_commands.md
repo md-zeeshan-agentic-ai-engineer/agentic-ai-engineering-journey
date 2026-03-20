@@ -139,3 +139,48 @@ Checked using:
 ls -l
 
 ---
+
+# Package Management (APT) + Git
+
+## Goal
+- Learn how to install, update, upgrade, and remove software in Linux
+- Understand basic package and dependency management
+- Learn basic Git verification
+
+---
+
+## Core APT Commands
+
+### 1. Update Package List
+```bash
+sudo apt update
+
+### 2. Upgrade Installed Packages
+```bash
+sudo apt upgrade
+
+### 3. Install a Package
+```bash
+sudo apt install <package-name>
+
+### 4. Remove a Package
+```bash
+sudo apt remove <package-name>
+
+### 5. Check Installed Tool
+```bash
+tree
+
+### 6. Install Git
+```bash
+sudo apt install git
+
+### 7. Check Git Version
+```bash
+git --version
+
+### 8. Important Notes
+- Always run `apt update` before installing packages
+- Do not install unknown packages blindly
+- Remove unused packages to keep system clean
+- Git is essential for version control
