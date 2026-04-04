@@ -11,7 +11,7 @@ arr = [3, 2, 1, 5, 4]
 result = bubble_sort(arr)
 print(result)
 
-# 3. Selection sort
+# 2. Selection sort
 def selection_sort(arr):
     n = len(arr)
     for i in range(n):
