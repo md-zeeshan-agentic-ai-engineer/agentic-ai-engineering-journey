@@ -43,27 +43,27 @@ AI
 
 ## Types of Machine Learning
 
-Supervised Learning
+### Supervised Learning
 
-Input + correct output already given.
+- Input + correct output already given.
     Example: House price prediction, Spam detection
 
-Main goal: Learn Mapping
-x -> y
+- Main goal: Learn Mapping
+    x -> y
 
 
-Unsupervised Learning
+### Unsupervised Learning
 
-No lables.
-Goal: Find hidden patterns
+- No lables.
+- Goal: Find hidden patterns
 
     Example: Customer segmentation, Recommendation systems
 
 
 
-Reinforcement Learning
+### Reinforcement Learning
 
-Agent learns using rewards/punishments.
+- Agent learns using rewards/punishments.
     Example: Self-driving, AlphaGo, Robotics
 
 
