@@ -47,8 +47,8 @@ plt.figure(figsize=(10,6))
 
 plt.scatter(X, y, color="blue", label="Original Data")
 
-plt.plot(X, y, color="red", label="Linear Regression")
-plt.plot(X, y, color="green", label="Polynomial Regression")
+plt.plot(X, linear_pred, color="red", label="Linear Regression")
+plt.plot(X, poly_pred, color="green", label="Polynomial Regression")
 
 plt.legend()
 plt.title("Linear vs Polynomial Regression")
