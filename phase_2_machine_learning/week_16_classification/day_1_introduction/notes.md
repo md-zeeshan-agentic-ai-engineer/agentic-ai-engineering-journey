@@ -21,11 +21,11 @@ Notice that every output is a category, not a number.
 
 ## 2. Regression vs Classification
 
-### Regression                              Classification
-Predicts continuous values                  Predicts categories
-Output is numeric                           Output is a class label
-Example: House Price                        Example: Spam Detection
-Metrics: MAE, MSE, RMSE                     Metrics: Accuracy, Precision, Recall
+### Regression|Classification
+Predicts continuous values|Predicts categories
+Output is numeric|Output is a class label
+Example: House Price|Example: Spam Detection
+Metrics: MAE, MSE, RMSE|Metrics: Accuracy, Precision, Recall
 
 ### Example
 
