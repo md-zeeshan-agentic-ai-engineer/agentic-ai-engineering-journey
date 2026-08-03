@@ -1,4 +1,4 @@
-#Function ka basic structure
+# Basic Structure of Function
 
 def function_name():
     print("Hello World")
