@@ -210,12 +210,18 @@ prediction
 Imagine customer data:
 
   Income     Age Purchased
+  
   -------- ----- -----------
   80k         35 Yes
+
   75k         40 Yes
+
   25k         22 No
+
   30k         25 No
+
   90k         42 Yes
+
   20k         21 No
 
 A tree might discover:
