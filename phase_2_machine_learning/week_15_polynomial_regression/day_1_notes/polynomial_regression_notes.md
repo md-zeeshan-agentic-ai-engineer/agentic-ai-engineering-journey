@@ -8,17 +8,15 @@
 
 Linear Regression is a supervised machine learning algorithm used to predict a continuous numerical value by finding the best-fit straight line through the data.
 
-It assumes that there is a **linear relationship** between the input feature (X) and the target variable (Y).
+It assumes that there is a **linear relationship** between the input feature (X) and the target variable (y).
 
 The equation of Linear Regression is:
 
-\[
 y = mx + b
-\]
 
 Where:
 - y = Predicted output
-- x = Input feature
+- X = Input feature
 - m = Slope of the line
 - b = Intercept
 
@@ -91,11 +89,9 @@ Instead of using only x, it also uses higher powers such as:
 
 General equation:
 
-\[
 y = b + m_1x + m_2x^2 + m_3x^3 + ...
-\]
 
-Although the relationship between X and Y becomes curved, the model is still considered a linear model because it remains linear in its coefficients.
+Although the relationship between X and y becomes curved, the model is still considered a linear model because it remains linear in its coefficients.
 
 Polynomial Regression can fit curved datasets much better than Linear Regression.
 
